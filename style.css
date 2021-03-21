@@ -1,0 +1,33 @@
+h1{
+    color: aqua;
+}
+*{
+    border: solid;
+}
+
+.header{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    position: relative;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: bisque;
+}
+.fotter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body{
+    background-color:rgb(0, 247, 255);
+}
